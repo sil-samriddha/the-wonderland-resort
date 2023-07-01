@@ -1,0 +1,48 @@
+.c1 {
+    display: flex;
+    height: fit-content;
+    padding: 5vw;
+    justify-content: space-between;
+    background-color: rgb(245,240,237);
+}
+.c1 > div {
+    width: 42%;
+    padding: 2%;
+}
+
+.c1 h1 {
+    color: rgb(82, 54, 47);
+    font-size: 4rem;
+    font-family: 'Bacasime Antique', serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.c1 p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.bg {
+    border-radius: 50% 50% 5% 5%;
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+    .c1 {
+        flex-direction: column;
+        height: fit-content;
+    }
+    .c1 > div {
+        width: 100%;
+    }
+    .c1 h1 {
+        font-size: 3rem;
+    }
+    .bg {
+        height: 50vh;
+    }
+    
+}

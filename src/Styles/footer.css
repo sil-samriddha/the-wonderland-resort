@@ -1,0 +1,95 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 30, 26);
+    color: rgb(245,240,237);
+}
+footer h1 {
+    font-size: 3rem;
+    font-family: 'Baumans', cursive;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 3px rgb(245,240,237);
+}
+
+footer > div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.footer-elements {
+    margin: 2rem;
+    padding: 2rem;
+    border: 1px solid rgb(245,240,237);
+    width: 20vw;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif; 
+    display: flex;
+    flex-direction: column;
+}
+footer h2 {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 2px rgb(245,240,237);
+}
+.footer-elements > div {
+    display: flex;
+    align-items: center;
+}
+.footer-elements i {
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.footer-elements a {
+    text-decoration: none;
+    color: rgb(245,240,237);
+}
+.social a {
+    font-size: 1.5rem;
+}
+.social i {
+    margin: 5px;
+    border-radius: 50%;
+    border: 1px solid rgb(245,240,237);
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    text-align: center;
+}
+.footer-elements button {
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: rgb(245,240,237);
+    border: 1px solid rgb(245,240,237);
+    outline: 0;
+    padding: 10px 0px;
+    margin: 30px 0px;
+    border-radius: 20px;
+    font-weight: bolder;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.footer-elements button:hover {
+    background-color: rgb(245,240,237);
+    color: rgb(46, 30, 26);
+}
+.footer-elements button:active {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 767px) {
+    footer h1 {
+        font-size: xx-large;
+    }
+    footer > div {
+        grid-template-columns: auto;
+    }
+    .footer-elements {
+        width: auto;
+        margin: 2rem 0px;
+    }
+
+}
