@@ -1,11 +1,11 @@
 .press {
-    background-image: url("Images/press.webp");
+    background-image: url("https://images.unsplash.com/photo-1602081115720-72e5b0a254b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80");
     padding: 2%;
     background-position: center;
     background-size: cover;
 }
 
-.press > div {
+.press-content {
     padding: 2%;
     display: flex;
     flex-direction: column;
@@ -28,13 +28,13 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.press > div > div {
+.press-content > div {
     display: grid;
     grid-template-columns: auto auto auto;
     font-family: 'Poppins', sans-serif;
     text-shadow: 0px 0px 5px rgb(82, 54, 47);
 }
-.press > div > div > div {
+.press-content > div > div {
     padding: 5%;
 }
 
@@ -45,7 +45,7 @@
     .press h1 {
         font-size: 2rem;
     }
-    .press > div > div {
+    .press-content > div {
         grid-template-columns: auto;
     }
     

@@ -5,7 +5,7 @@ import press from '../Constants/Press'
 export default function Press() {
   return (
     <div className='press'>
-        <div>
+        <div className='press-content'>
         <h1>In The Press</h1>
         <div>
             {
